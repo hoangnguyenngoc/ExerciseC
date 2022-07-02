@@ -1,22 +1,14 @@
-/**
- *
+/*
  * Exercise 1.17 -  Program to print the length of all input lines greater
- * than 80 characters.
- *
- **/
+ * than 80 characters.*/
 
 #include<stdio.h>
 
 #define MAXLINE 1000
 #define LIMIT 80
-
-
-/***
- *
+/*
  * We call it ngetline, for new getline so that it does not conflict with
- * system function getline
- *
- ***/
+ * system function getline*/
 
 int ngetline(char line[], int lim);
 
